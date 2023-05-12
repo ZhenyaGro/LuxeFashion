@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: auto 230px;
+}
+
+header {
+  height: 75px;
+  background-color: #222222;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+}
+
+.magnifier {
+  margin-left: 40px;
+}
+
+.burger-menu,
+.contact {
+  margin-right: 33px;
+}
+
+.main-page {
+  background-color: #F1E4E6;
+}/*# sourceMappingURL=style.css.map */
