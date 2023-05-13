@@ -37,5 +37,24 @@ header {
 }
 
 .main-page_header {
-  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-transform: uppercase;
+  border-left: 12px solid #F16D7F;
+  padding-left: 16px;
+}
+
+.header_first-line {
+  font-weight: 900;
+  font-size: 48px;
+}
+
+.header_second-line {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.text-red {
+  color: #F16D7F;
 }/*# sourceMappingURL=style.css.map */

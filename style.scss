@@ -1,3 +1,5 @@
+$brand-red: #F16D7F;
+
 * {
   margin: 0;
   padding: 0;
@@ -37,8 +39,24 @@ header {
 }
 
 .main-page_header {
-  display: flex;
-  // justify-content: flex-end;
-  // // align-items: center;
-  // background-color: aqua;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-transform: uppercase;
+  border-left: 12px solid $brand-red;
+  padding-left: 16px;
+}
+
+.header_first-line {
+  font-weight: 900;
+  font-size: 48px;
+}
+
+.header_second-line {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.text-red {
+  color: $brand-red;
 }
