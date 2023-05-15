@@ -33,7 +33,9 @@ header {
   background: url(./Img/main-man.png);
   background-repeat: no-repeat;
   background-color: #F1E4E6;
-  height: 764px;
+  background-position-y: bottom;
+  background-size: 764px;
+  height: calc(100vh - 75px);
 }
 
 .main-page_header {
@@ -57,4 +59,16 @@ header {
 
 .text-red {
   color: #F16D7F;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 0 16px;
+  }
+  .header {
+    padding: 0 16px;
+  }
+  .main-page {
+    background-size: 368px;
+  }
 }/*# sourceMappingURL=style.css.map */

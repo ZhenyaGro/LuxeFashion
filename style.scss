@@ -1,4 +1,9 @@
 $brand-red: #F16D7F;
+$tablet-width: 768px;
+$phone-width: 375px;
+$desktop-width: 1024px;
+
+$header-height: 75px;
 
 * {
   margin: 0;
@@ -11,7 +16,7 @@ $brand-red: #F16D7F;
 }
 
 header {
-  height: 75px;
+  height: $header-height;
   background-color: #222222;
 }
 
@@ -35,7 +40,9 @@ header {
   background: url(./Img/main-man.png);
   background-repeat: no-repeat;
   background-color: #F1E4E6;
-  height: 764px;
+  background-position-y: bottom;
+  background-size: 764px;
+  height: calc(100vh - $header-height);
 }
 
 .main-page_header {
@@ -59,4 +66,18 @@ header {
 
 .text-red {
   color: $brand-red;
+}
+
+@media (max-width: $tablet-width) {
+  .container {
+    margin: 0 16px;
+  }
+
+  .header {
+    padding: 0 16px;
+  }
+
+  .main-page {
+    background-size: 368px;
+  }
 }
