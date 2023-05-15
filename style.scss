@@ -1,8 +1,8 @@
-$brand-red: #F16D7F;
 $tablet-width: 768px;
 $phone-width: 375px;
 $desktop-width: 1024px;
 
+$brand-red: #F16D7F;
 $header-height: 75px;
 
 * {
@@ -80,4 +80,13 @@ header {
   .main-page {
     background-size: 368px;
   }
+
+  .header_first-line {
+    font-size: 44px;
+  }
+
+  .header_second-line {
+    font-size: 26px;
+  }
+
 }

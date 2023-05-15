@@ -71,4 +71,10 @@ header {
   .main-page {
     background-size: 368px;
   }
+  .header_first-line {
+    font-size: 44px;
+  }
+  .header_second-line {
+    font-size: 26px;
+  }
 }/*# sourceMappingURL=style.css.map */
