@@ -1,5 +1,5 @@
 $tablet-width: 768px;
-$phone-width: 375px;
+$phone-width: 554px; // 375px? 554
 $desktop-width: 1024px;
 
 $brand-red: #F16D7F;
@@ -9,6 +9,7 @@ $header-height: 75px;
   margin: 0;
   padding: 0;
   font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
 }
 
 .container {
@@ -88,5 +89,42 @@ header {
   .header_second-line {
     font-size: 26px;
   }
+}
 
+@media (max-width: $phone-width) {
+  .main-page {
+    background-image: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header {
+    padding: 0;
+  }
+
+  .contact,
+  .cart {
+    display: none;
+  }
+
+  .burger-menu {
+    margin: auto;
+  }
+
+  .main-page_header {
+    position: static;
+    line-height: 24px;
+    border-left-width: 16px;
+    padding: 10px 0 0 15px;
+  }
+
+  .header_first-line {
+    font-size: 38px;
+  }
+
+  .header_second-line {
+    font-size: 20px;
+  }
 }
