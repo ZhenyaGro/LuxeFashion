@@ -6,7 +6,9 @@
 }
 
 .container {
-  margin: auto 230px;
+  margin: 0 auto;
+  padding: 0 16px;
+  max-width: 1080px;
 }
 
 header {
