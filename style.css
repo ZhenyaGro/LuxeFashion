@@ -26,13 +26,16 @@ header {
   align-items: center;
 }
 
-.magnifier {
-  margin-left: 40px;
+.header_button-group {
+  display: flex;
 }
 
-.burger-menu,
-.contact {
-  margin-right: 33px;
+.group-logo {
+  gap: 41px;
+}
+
+.group-menu {
+  gap: 33px;
 }
 
 .main-page {
