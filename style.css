@@ -70,7 +70,7 @@ header {
   color: #F16D7F;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .container {
     margin: 0 16px;
   }
