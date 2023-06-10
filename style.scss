@@ -3,7 +3,6 @@ $phone-width: 554px; // 375px? 554
 $desktop-width: 1024px;
 
 $brand-red: #F16D7F;
-$header-height: 75px;
 
 * {
   margin: 0;
@@ -12,29 +11,27 @@ $header-height: 75px;
 
 body {
   font-family: 'Lato', sans-serif;
-  box-sizing: border-box;
 }
 
 .container {
-  margin: 0 auto;
-  padding: 0 16px;
-  max-width: 1080px;
-}
-
-header {
-  height: $header-height;
-  background-color: #222222;
+  padding-left: calc(50% - 570px);
+  padding-right: calc(50% - 570px);
 }
 
 .header {
-  display: flex;
-  justify-content: space-between;
-  height: 100%;
-  align-items: center;
+  background-color: #222222;
+  padding-top: 18px;
+  padding-bottom: 19px;
 }
 
-.header_button-group {
+.header_links {
   display: flex;
+  justify-content: space-between;
+}
+
+.header_link-group {
+  display: flex;
+  align-items: baseline;
 }
 
 .group-logo {
@@ -46,21 +43,17 @@ header {
 }
 
 .main-page {
-  background: url(./Img/main-man.png);
-  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
   background-color: #F1E4E6;
-  background-position-y: bottom;
-  background-size: 764px;
-  height: calc(100vh - $header-height);
+  justify-content: space-between;
 }
 
 .main-page_header {
-  position: absolute;
-  top: 50%;
-  left: 50%; // another ideas?
   text-transform: uppercase;
   border-left: 12px solid $brand-red;
   padding-left: 16px;
+  margin-right: 88px;
 }
 
 .header_first-line {
@@ -75,64 +68,4 @@ header {
 
 .text-red {
   color: $brand-red;
-}
-
-@media (max-width: $tablet-width) {
-  .container {
-    margin: 0 16px;
-  }
-
-  .header {
-    padding: 0 16px;
-  }
-
-  .main-page {
-    background-size: 368px;
-  }
-
-  .header_first-line {
-    font-size: 44px;
-  }
-
-  .header_second-line {
-    font-size: 26px;
-  }
-}
-
-@media (max-width: $phone-width) {
-  .main-page {
-    background-image: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .header {
-    padding: 0;
-  }
-
-  .contact,
-  .cart {
-    display: none;
-  }
-
-  .burger-menu {
-    margin: auto;
-  }
-
-  .main-page_header {
-    position: static;
-    line-height: 24px;
-    border-left-width: 16px;
-    padding: 10px 0 0 15px;
-  }
-
-  .header_first-line {
-    font-size: 38px;
-  }
-
-  .header_second-line {
-    font-size: 20px;
-  }
 }
