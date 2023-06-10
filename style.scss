@@ -47,6 +47,7 @@ body {
   align-items: center;
   background-color: #F1E4E6;
   justify-content: space-between;
+  margin-bottom: 65px;
 }
 
 .main-page_header {
@@ -68,4 +69,17 @@ body {
 
 .text-red {
   color: $brand-red;
+}
+
+.categories {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 30px;
+  padding-bottom: 96px;
+}
+
+.img-long {
+  grid-row: 2;
+  grid-column: span 3;
 }
