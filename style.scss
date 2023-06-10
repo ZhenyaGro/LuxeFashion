@@ -13,6 +13,11 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .container {
   padding-left: calc(50% - 570px);
   padding-right: calc(50% - 570px);
@@ -79,7 +84,26 @@ body {
   padding-bottom: 96px;
 }
 
+.category_link {
+  position: relative;
+}
+
 .img-long {
   grid-row: 2;
   grid-column: span 3;
+}
+
+.category_header {
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 50%;
+  text-align: center;
+}
+
+.text-light {
+  font-weight: 400;
+  font-size: 16px;
 }
