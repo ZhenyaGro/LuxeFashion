@@ -221,6 +221,12 @@ a {
 
   .featured_content {
     grid-template-columns: repeat(2, 48%);
+    margin-bottom: 32px;
+  }
+
+  .featured_block {
+    display: flex;
+    flex-direction: column;
   }
 
 }
