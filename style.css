@@ -41,10 +41,13 @@ a {
   gap: 33px;
 }
 
+.main {
+  background-color: #F1E4E6;
+}
+
 .main-page {
   display: flex;
   align-items: center;
-  background-color: #F1E4E6;
   justify-content: space-between;
   margin-bottom: 65px;
 }
@@ -172,4 +175,11 @@ a {
 .featured_browse:hover {
   background-color: #FF6A6A;
   color: white;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    width: 98%;
+    margin: 0 auto;
+  }
 }/*# sourceMappingURL=style.css.map */
