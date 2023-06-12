@@ -179,6 +179,10 @@ a {
     padding-left: 1%;
     padding-right: 1%;
   }
+  .header {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
   .main-page {
     justify-content: space-around;
   }
