@@ -241,8 +241,29 @@ a {
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
-  .logo {
-    margin-left: 1rem;
+  .header {
+    padding-left: 1rem;
+  }
+  .contact,
+  .cart,
+  .man {
+    display: none;
+  }
+  .group-menu {
+    gap: 0;
+    align-items: center;
+  }
+  .main-page_header {
+    border-left: 16px solid #f16D7f;
+    margin-top: 149px;
+    margin-bottom: 149px;
+    line-height: 30px;
+  }
+  .header_first-line {
+    font-size: 38px;
+  }
+  .header_second-line {
+    font-size: 20px;
   }
 }
 @media (hover: hover) {
