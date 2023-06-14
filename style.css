@@ -200,12 +200,12 @@ a {
 
 @media (max-width: 1024px) {
   .container {
-    padding-left: 1%;
-    padding-right: 1%;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   .header {
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
   .main-page {
     justify-content: space-around;
@@ -236,9 +236,13 @@ a {
     grid-template-columns: repeat(2, 48%);
     margin-bottom: 32px;
   }
-  .featured_block {
-    display: flex;
-    flex-direction: column;
+  .featured_img {
+    width: 100%;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .logo {
+    margin-left: 1rem;
   }
 }
 @media (hover: hover) {
