@@ -141,6 +141,40 @@ a {
   line-height: 16px;
 }
 
+.image-box {
+  position: relative;
+}
+
+.add-cart {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(58, 56, 56, 0.86);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.add-to-cart_link {
+  color: white;
+  padding: 13px;
+  border: 1px solid #FFFFFF;
+  display: flex;
+  align-items: center;
+}
+
+.add-to-cart_link::before {
+  content: url(./img/addCart.svg);
+  margin-right: 11px;
+}
+
+.featured_block:hover .add-cart {
+  display: flex;
+  background: rgba(58, 56, 56, 0.86);
+}
+
 .item-info {
   padding: 25px 29px 19px 16px;
 }
