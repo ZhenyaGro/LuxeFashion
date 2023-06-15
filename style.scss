@@ -295,6 +295,41 @@ a {
   .header_second-line {
     font-size: 20px;
   }
+
+
+  .categories {
+    display: block;
+  }
+
+  .category_link {
+    display: block;
+    margin-bottom: 2rem;
+  }
+
+  .category_img-long {
+    width: 100%;
+    content: url(./img/pic4phone.png);
+  }
+
+  .category_header {
+    z-index: 1;
+  }
+
+  .text-big {
+    font-size: 24px;
+  }
+
+  .featured_header {
+    margin-bottom: 3px;
+  }
+
+  .featured_content {
+    display: block;
+  }
+
+  .featured_block {
+    margin-bottom: 1rem;
+  }
 }
 
 @media (hover: hover) {
