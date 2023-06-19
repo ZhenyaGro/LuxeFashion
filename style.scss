@@ -333,9 +333,21 @@ a {
 }
 
 @media (hover: hover) {
+  .header_link {
+    transition: transform .3s;
+  }
+
+  .header_link:hover {
+    transform: scale(1.1);
+  }
+
   .featured_block:hover .add-cart {
     display: flex;
     background: rgba(58, 56, 56, 0.86);
+  }
+
+  .featured_browse {
+    transition: all .3s;
   }
 
   .featured_browse:hover {
