@@ -234,6 +234,102 @@ a {
   line-height: 17px;
 }
 
+.subscribe_background {
+  background: url(./img/subscribe_background.jpg);
+  background-size: cover;
+}
+
+.subscribe {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  padding-top: 87px;
+  padding-bottom: 126px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quote_img {
+  margin-bottom: 30px;
+}
+
+.quote_text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  max-width: 360px;
+  color: #222224;
+}
+
+.subscribe_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subscribe_heading {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 32px;
+  color: #222224;
+  text-transform: uppercase;
+}
+
+.subscribe_heading::first-line {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.input-object {
+  display: flex;
+  align-items: center;
+}
+
+.input-email,
+.subcribe_button {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border: 0;
+  padding-left: 22px;
+}
+
+.input-email {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #222224;
+  background-color: #E1E1E1;
+  opacity: 0.67;
+  border-radius: 50px 0 0 50px;
+  padding-right: 64px;
+}
+
+.subcribe_button {
+  background-color: #F16D7F;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  border-radius: 0 50px 50px 0;
+  padding-right: 20px;
+}
+
+@media (min-width: 1600px) {
+  .subscribe_background {
+    background-position: bottom;
+  }
+}
 @media (max-width: 1024px) {
   .container {
     padding-left: 1rem;
@@ -322,7 +418,7 @@ a {
     margin-bottom: 3px;
   }
   .featured_content {
-    display: block;
+    grid-template-columns: 1fr;
   }
   .featured_block {
     margin-bottom: 1rem;
@@ -345,5 +441,11 @@ a {
   .featured_browse:hover {
     background-color: #FF6A6A;
     color: white;
+  }
+  .subcribe_button {
+    transition: background-color 0.2s;
+  }
+  .subcribe_button:hover {
+    background-color: #E05C6E;
   }
 }/*# sourceMappingURL=style.css.map */
