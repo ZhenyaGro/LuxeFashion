@@ -309,7 +309,7 @@ a {
 }
 
 .input-email,
-.subcribe_button {
+.subscribe_button {
   padding-top: 16px;
   padding-bottom: 16px;
   border: 0;
@@ -327,7 +327,7 @@ a {
   padding-right: 64px;
 }
 
-.subcribe_button {
+.subscribe_button {
   background-color: #F16D7F;
   font-weight: 400;
   font-size: 14px;
@@ -524,6 +524,19 @@ a {
     line-height: 21px;
   }
 
+  .input-object {
+    width: 100%;
+  }
+
+  .input-email {
+    width: 68%;
+    padding-right: unset;
+  }
+
+  .subscribe_button {
+    width: 30%;
+  }
+
   .rights {
     flex-direction: column-reverse;
     gap: 40px;
@@ -553,11 +566,11 @@ a {
     color: white;
   }
 
-  .subcribe_button {
+  .subscribe_button {
     transition: background-color .2s;
   }
 
-  .subcribe_button:hover {
+  .subscribe_button:hover {
     background-color: #E05C6E;
   }
 
