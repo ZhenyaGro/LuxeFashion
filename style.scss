@@ -259,7 +259,7 @@ a {
   justify-content: space-around;
   padding-top: 87px;
   padding-bottom: 126px;
-  // background: url(./img/subscribe_background.jpg);
+  margin-bottom: 30px;
 }
 
 .quote {
@@ -339,6 +339,25 @@ a {
   border-radius: 0 50px 50px 0;
   padding-right: 20px;
 }
+
+.rights {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rights_text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FBFBFB;
+}
+
+.social-media {
+  display: flex;
+  gap: 0.5rem;
+}
+
 
 @media (min-width: 1600px) {
   .subscribe_background {
@@ -497,4 +516,17 @@ a {
   .subcribe_button:hover {
     background-color: #E05C6E;
   }
+
+  .social_link path {
+    transition: fill .1s;
+  }
+
+  .social_link:hover path {
+    fill: #F16D7F;
+  }
+
+  .social_link:hover path:last-child {
+    fill: white;
+  }
+
 }
