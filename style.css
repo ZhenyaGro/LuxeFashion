@@ -459,6 +459,9 @@ a {
   .featured_block {
     margin-bottom: 1rem;
   }
+  .footer {
+    padding-bottom: 9px;
+  }
   .subscribe_background {
     background-position: left;
   }
@@ -469,6 +472,10 @@ a {
   .subscribe_heading {
     margin-bottom: 22px;
     line-height: 21px;
+  }
+  .rights {
+    flex-direction: column-reverse;
+    gap: 40px;
   }
 }
 @media (hover: hover) {

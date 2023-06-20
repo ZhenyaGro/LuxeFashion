@@ -506,6 +506,10 @@ a {
     margin-bottom: 1rem;
   }
 
+  .footer {
+    padding-bottom: 9px;
+  }
+
   .subscribe_background {
     background-position: left;
   }
@@ -523,6 +527,11 @@ a {
   // .input-object {
   //   // padding-left: 1px;
   // }
+
+  .rights {
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
 }
 
 @media (hover: hover) {
