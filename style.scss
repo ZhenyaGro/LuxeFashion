@@ -505,6 +505,24 @@ a {
   .featured_block {
     margin-bottom: 1rem;
   }
+
+  .subscribe_background {
+    background-position: left;
+  }
+
+  .subscribe {
+    gap: 60px;
+    padding-bottom: 110px;
+  }
+
+  .subscribe_heading {
+    margin-bottom: 22px;
+    line-height: 21px;
+  }
+
+  // .input-object {
+  //   // padding-left: 1px;
+  // }
 }
 
 @media (hover: hover) {
