@@ -25,8 +25,8 @@ a {
 
 .header {
   background-color: #222222;
-  padding-top: 18px;
-  padding-bottom: 19px;
+  // padding-top: 18px;
+  // padding-bottom: 19px;
 }
 
 .header_links {
@@ -36,7 +36,12 @@ a {
 
 .header_link-group {
   display: flex;
-  align-items: baseline;
+  align-items: center;
+}
+
+.header_link {
+  padding-top: 18px;
+  padding-bottom: 19px;
 }
 
 .group-logo {
@@ -57,10 +62,12 @@ a {
   transition: display 0.5s;
   z-index: 1;
   position: absolute;
-  left: -57px;
-  top: 46px;
+  left: -91px;
+  top: 71px;
   background-color: white;
   padding: 2rem 0 2rem 2rem;
+  width: max-content;
+  box-shadow: -2px 4px 10px #dbd9d9
 }
 
 .header_link_button:hover .menu {
