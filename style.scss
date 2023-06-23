@@ -60,7 +60,7 @@ a {
   display: none;
   -webkit-transition: display 0.5s;
   transition: display 0.5s;
-  z-index: 1;
+  z-index: 2;
   position: absolute;
   left: -91px;
   top: 71px;
@@ -531,6 +531,10 @@ a {
     font-size: 20px;
   }
 
+  .menu {
+    left: -201px;
+    top: 71px;
+  }
 
   .categories {
     display: block;
