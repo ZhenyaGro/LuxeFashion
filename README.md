@@ -1,3 +1,3 @@
 ## Задание
 
-Сверстать сайт по [макету](https://www.figma.com/file/7XhT5EWfZX0W6ohgd57Pny/shop).
+Создать сайт по [макету](https://www.figma.com/file/7XhT5EWfZX0W6ohgd57Pny/shop).
