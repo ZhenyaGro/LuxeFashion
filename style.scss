@@ -309,7 +309,6 @@ a {
 .subscribe_background {
   background: url(./img/subscribe_background.jpg);
   background-size: cover;
-  // background-position: bottom;
 }
 
 .subscribe {
@@ -424,7 +423,9 @@ a {
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1159px) {}
+
+@media (max-width: 1159px) {
   .container {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -499,7 +500,7 @@ a {
   }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 700px) {
   .header {
     padding-left: 1rem;
   }
