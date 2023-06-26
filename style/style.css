@@ -60,8 +60,7 @@ a {
   display: block;
 }
 
-.menu__heading,
-.person-category__link {
+.person-category__link, .menu__heading {
   font-size: 14px;
   text-transform: uppercase;
 }
@@ -162,24 +161,19 @@ a {
 .featured {
   padding-bottom: 60px;
 }
-
-.featured__header,
-.featured__text {
+.featured .featured__text, .featured .featured__header {
   text-align: center;
 }
-
 .featured__header {
   font-size: 30px;
   font-weight: 400;
   margin-bottom: 6px;
 }
-
 .featured__text {
   font-size: 14px;
   color: #9F9F9F;
   margin-bottom: 48px;
 }
-
 .featured__content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -187,11 +181,9 @@ a {
   gap: 30px;
   margin-bottom: 49px;
 }
-
 .featured__block {
   background-color: #F8F8F8;
 }
-
 .featured__heading {
   font-weight: 400;
   font-size: 13px;
