@@ -45,6 +45,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-bottom: 52px;
 
   &__button {
     border: 0;
@@ -58,7 +59,9 @@
 .chooser {
   text-align: center;
   padding: 65px 250px;
-
+  background-color: white;
+  margin-top: -52px;
+  margin-bottom: 128px;
   border: 2px solid #F7F7F7;
 
   &__head {
@@ -119,8 +122,50 @@
     font-size: 14px;
   }
 
-  // .brand-color {
-  //   color: #F26376;
-  //   border: 1px solid #F26376;
-  // }
+  .cart__button {
+    color: #F26376;
+    border: 1px solid #F26376;
+    padding: 14px 56px 8px 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin: 0 auto;
+
+    &__text {
+      margin-left: 23px;
+    }
+  }
+}
+
+.featured__content_small {
+  grid-template-rows: 1fr;
+  margin-bottom: 128px;
+}
+
+.none-pt {
+  padding-top: 0;
+}
+
+@media (hover: hover) {
+  .cart__button:hover {
+    background-color: $brandColor;
+    color: white;
+  }
+
+  .cart__button:hover path {
+    fill: white;
+  }
+
+  %slow {
+    transition: all .2s;
+  }
+
+  .cart__button {
+    @extend %slow;
+
+    & path {
+      @extend %slow;
+    }
+  }
 }
