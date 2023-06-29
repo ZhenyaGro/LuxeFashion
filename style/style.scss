@@ -238,7 +238,7 @@ a {
   display: none;
 }
 
-.add-to-cart__link {
+.add-to-cart__text {
   color: white;
   padding: 13px;
   border: 1px solid #FFFFFF;
@@ -246,7 +246,7 @@ a {
   align-items: center;
 }
 
-.add-to-cart__link::before {
+.add-to-cart__text::before {
   content: url(../img/addCart.svg);
   margin-right: 11px;
 }
