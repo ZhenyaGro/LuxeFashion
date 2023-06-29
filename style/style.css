@@ -845,4 +845,31 @@ a {
 
 .catalog {
   grid-template-rows: repeat(3, 1fr);
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 12px 16px;
+  border: 1px solid #EBEBEB;
+}
+.pagination__number {
+  color: #C4C4C4;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.pagination__number:hover {
+  color: #F16D7F;
+}
+.pagination__arrow:hover path {
+  fill: #F16D7F;
+}
+.pagination__dots {
+  gap: 0;
 }/*# sourceMappingURL=style.css.map */

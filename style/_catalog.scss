@@ -140,3 +140,34 @@
 .catalog {
   grid-template-rows: repeat(3, 1fr);
 }
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 12px 16px;
+  border: 1px solid #EBEBEB;
+
+  &__number {
+    color: #C4C4C4;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+  &__number:hover {
+    color: $brandColor;
+  }
+
+  &__arrow:hover path {
+    fill: $brandColor;
+  }
+
+  &__dots {
+    gap: 0;
+  }
+
+}
