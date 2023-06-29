@@ -1,15 +1,31 @@
 .filter-sort {
   height: 132px;
+  padding-top: 39px;
+  box-sizing: border-box;
   position: relative;
+  display: flex;
+  gap: 30px;
+}
+
+%catalog-font {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6F6E6E;
 }
 
 .filter {
-  padding: 13px 16px 16px;
+  padding-top: 13px;
   width: 360px;
-  position: absolute;
-  top: 39px;
   box-sizing: border-box;
-  z-index: 1;
+  position: relative;
+  z-index: 5;
+
+  &__content {
+    background-color: #fff;
+    padding: 0 16px 16px 16px;
+  }
 
   &[open] {
     background: #fff;
@@ -28,6 +44,7 @@
     display: flex;
     align-items: center;
     gap: 11px;
+    padding-left: 16px;
 
     &__text {
       text-transform: uppercase;
@@ -47,14 +64,6 @@
 
   &__item {
     margin-top: 16px;
-  }
-
-  %catalog-font {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    color: #6F6E6E;
   }
 
   &__link-box {
@@ -81,6 +90,50 @@
 
   &__item[open] .filter__head {
     color: $brandColor;
+  }
+}
+
+.sort {
+  display: flex;
+  padding-top: 12px;
+  gap: 18px;
+  z-index: 2;
+
+  &__details {
+    position: relative;
+  }
+
+  &__summary {
+    display: flex;
+    align-items: center;
+    gap: 10px
+  }
+
+  &__check {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #6F6E6E;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  &__heading {
+    @extend %catalog-font;
+  }
+
+  &__box {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background: #FFF;
+    box-shadow: 6px 4px 35px 0px rgba(0, 0, 0, 0.21);
+    padding: 7px 30px 11px 9px;
+    position: absolute;
+    left: -9px;
+    top: 22px;
   }
 }
 
