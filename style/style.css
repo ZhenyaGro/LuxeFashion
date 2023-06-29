@@ -721,4 +721,7 @@ a {
   .cart__button path, .cart__button {
     transition: all 0.2s;
   }
+}
+.catalog {
+  grid-template-rows: repeat(3, 1fr);
 }/*# sourceMappingURL=style.css.map */
