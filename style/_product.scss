@@ -32,13 +32,14 @@
     }
   }
 
-  &__breadcrumb li+li::before {
-    padding: 3px;
-    content: "/\00a0";
+  &__breadcrumb li:not(:last-child)::after {
+    display: inline-block;
+    margin: 0 .25rem;
+    content: "/";
     font-weight: 300;
   }
-
 }
+
 
 .slider {
   background-color: #F7F7F7;
