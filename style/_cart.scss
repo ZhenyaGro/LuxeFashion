@@ -1,11 +1,11 @@
 .cart-content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
+  padding-top: 96px;
 }
 
 .order {
-  margin-top: 96px;
 
   &__items {
     display: flex;
@@ -114,9 +114,36 @@
 }
 
 .order-data {
+  margin-top: 17px;
+
+  &__header {
+    color: #222;
+    font-size: 16px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 20px;
+  }
 
   &__address {
     display: flex;
     flex-direction: column;
+    gap: 20px;
+  }
+
+  &__input::placeholder {
+    color: #B1B1B1;
+  }
+
+  &__input {
+    padding: 13px 17px 16px;
+    color: $additionalColor;
+    font-size: 13px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    width: 360px;
   }
 }
