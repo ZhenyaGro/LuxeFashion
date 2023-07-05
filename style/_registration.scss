@@ -1,0 +1,128 @@
+.registration-content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 64px;
+  padding-bottom: 96px;
+}
+
+.reg-form {
+  max-width: 360px;
+
+  &__label {
+    display: flex;
+    flex-direction: column;
+    color:
+      $additionalColor;
+    gap: 20px;
+    font-size: 16px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+  &__input {
+    padding: 13px 17px 16px;
+    border: 1px solid #A4A4A4;
+    font-size: 13px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+  &__input::placeholder {
+    color: #B1B1B1;
+  }
+
+  &__gender {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 31px;
+    margin-bottom: 33px;
+  }
+
+  &__radio {
+    width: 17px;
+    height: 17px;
+  }
+
+  &__label_small {
+    color: black;
+    font-size: 11px;
+  }
+
+  &__login-data {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__text {
+    margin-top: 15.5px;
+    margin-bottom: 39px;
+    color: #B1B1B1;
+    font-size: 13px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+  &__button {
+    padding: 16px 29px 17px 29px;
+    width: fit-content;
+    background-color: $brandColor;
+    color: white;
+    border: 0;
+    transition: background-color .3s;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  &__button:hover {
+    background-color: #f53e57;
+  }
+
+  &__button:active {
+    background-color: #f53e57;
+  }
+}
+
+.add-info {
+  max-width: 652px;
+  color: #000;
+  font-size: 24px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+
+  &__heading {
+    font-size: inherit;
+    font-weight: inherit;
+    margin-bottom: 22px;
+  }
+
+  &__text {
+    margin-bottom: 21px;
+  }
+
+  &__list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  &__list-item::before {
+    content: url(../img/flag.svg);
+    margin-right: 23px;
+  }
+}
