@@ -915,6 +915,10 @@ a {
   line-height: normal;
   max-width: 262px;
   margin-bottom: 42px;
+  transition: color 0.1s;
+}
+.order__heading:hover {
+  color: #F16D7F;
 }
 .order__properties {
   list-style-type: none;
@@ -1424,6 +1428,10 @@ a {
   line-height: normal;
   max-width: 262px;
   margin-bottom: 42px;
+  transition: color 0.1s;
+}
+.order__heading:hover {
+  color: #F16D7F;
 }
 .order__properties {
   list-style-type: none;
