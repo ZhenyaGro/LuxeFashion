@@ -907,7 +907,6 @@ a {
   padding: 22px 22px 62px 32px;
   display: flex;
   gap: 57px;
-  max-width: 390px;
 }
 .order__info {
   display: flex;
@@ -1027,6 +1026,8 @@ a {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+  box-sizing: border-box;
+  width: 360px;
 }
 .order-data__button {
   background-color: white;
@@ -1106,6 +1107,36 @@ a {
   background-color: #E05C6E;
 }
 
+@media (max-width: 1159px) {
+  .cart-content {
+    flex-direction: column;
+    padding-top: 59px;
+    align-items: center;
+    align-items: stretch;
+  }
+  .order {
+    margin-bottom: 64px;
+  }
+  .order__block {
+    justify-content: space-between;
+    width: 100%;
+  }
+  .order__items {
+    margin-bottom: 62px;
+  }
+  .order__buttons {
+    justify-content: center;
+    gap: 48px;
+  }
+  .order-data__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .order-data__address {
+    margin-bottom: 0;
+  }
+}
 .brand-color {
   color: #F16D7F;
 }
@@ -1426,7 +1457,6 @@ a {
   padding: 22px 22px 62px 32px;
   display: flex;
   gap: 57px;
-  max-width: 390px;
 }
 .order__info {
   display: flex;
@@ -1546,6 +1576,8 @@ a {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+  box-sizing: border-box;
+  width: 360px;
 }
 .order-data__button {
   background-color: white;
@@ -1625,6 +1657,36 @@ a {
   background-color: #E05C6E;
 }
 
+@media (max-width: 1159px) {
+  .cart-content {
+    flex-direction: column;
+    padding-top: 59px;
+    align-items: center;
+    align-items: stretch;
+  }
+  .order {
+    margin-bottom: 64px;
+  }
+  .order__block {
+    justify-content: space-between;
+    width: 100%;
+  }
+  .order__items {
+    margin-bottom: 62px;
+  }
+  .order__buttons {
+    justify-content: center;
+    gap: 48px;
+  }
+  .order-data__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .order-data__address {
+    margin-bottom: 0;
+  }
+}
 .registration-content {
   display: flex;
   justify-content: space-between;
