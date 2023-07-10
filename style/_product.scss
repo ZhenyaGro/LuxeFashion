@@ -59,7 +59,8 @@
 
 .chooser {
   text-align: center;
-  padding: 65px 250px;
+  padding-top: 65px;
+  padding-bottom: 65px;
   background-color: white;
   margin-top: -52px;
   margin-bottom: 128px;
@@ -88,6 +89,7 @@
   }
 
   &__text {
+    margin: 0 auto;
     color: #5E5E5E;
     text-align: center;
     font-size: 14px;
@@ -145,6 +147,14 @@
 
 .none-pt {
   padding-top: 0;
+}
+
+@media (max-width: 1159px) {
+  .featured {
+    &__block_none-sm-display {
+      display: none;
+    }
+  }
 }
 
 @media (hover: hover) {

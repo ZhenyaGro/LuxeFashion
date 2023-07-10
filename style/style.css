@@ -642,7 +642,8 @@ a {
 
 .chooser {
   text-align: center;
-  padding: 65px 250px;
+  padding-top: 65px;
+  padding-bottom: 65px;
   background-color: white;
   margin-top: -52px;
   margin-bottom: 128px;
@@ -668,13 +669,13 @@ a {
   margin-bottom: 48px;
 }
 .chooser__text {
+  margin: 0 auto;
   color: #5E5E5E;
   text-align: center;
   font-size: 14px;
   font-weight: 300;
   margin-bottom: 32px;
-  margin-left: 43px;
-  margin-right: 43px;
+  max-width: 555px;
 }
 .chooser__price {
   color: #EF5B70;
@@ -722,6 +723,11 @@ a {
   padding-top: 0;
 }
 
+@media (max-width: 1159px) {
+  .featured__block_none-sm-display {
+    display: none;
+  }
+}
 @media (hover: hover) {
   .cart__button:hover {
     background-color: #F16D7F;
@@ -1155,7 +1161,8 @@ a {
 
 .chooser {
   text-align: center;
-  padding: 65px 250px;
+  padding-top: 65px;
+  padding-bottom: 65px;
   background-color: white;
   margin-top: -52px;
   margin-bottom: 128px;
@@ -1181,13 +1188,13 @@ a {
   margin-bottom: 48px;
 }
 .chooser__text {
+  margin: 0 auto;
   color: #5E5E5E;
   text-align: center;
   font-size: 14px;
   font-weight: 300;
   margin-bottom: 32px;
-  margin-left: 43px;
-  margin-right: 43px;
+  max-width: 555px;
 }
 .chooser__price {
   color: #EF5B70;
@@ -1235,6 +1242,11 @@ a {
   padding-top: 0;
 }
 
+@media (max-width: 1159px) {
+  .featured__block_none-sm-display {
+    display: none;
+  }
+}
 @media (hover: hover) {
   .cart__button:hover {
     background-color: #F16D7F;
