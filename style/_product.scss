@@ -149,7 +149,7 @@
   padding-top: 0;
 }
 
-@media (max-width: 1159px) {
+@media (max-width: $desktopWidth) {
   .featured {
     &__block_none-sm-display {
       display: none;

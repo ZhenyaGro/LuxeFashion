@@ -525,6 +525,7 @@ a {
   }
   .subscribe__background {
     background-position: left;
+    background-image: url(../img/subscribe_background-tablets.png);
   }
   .subscribe {
     gap: 60px;
