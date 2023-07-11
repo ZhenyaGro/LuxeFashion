@@ -29,6 +29,8 @@
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+    width: 360px;
+    box-sizing: border-box;
   }
 
   &__input::placeholder {
@@ -121,8 +123,31 @@
     gap: 16px;
   }
 
+  &__list-item {
+    display: flex;
+  }
+
   &__list-item::before {
     content: url(../img/flag.svg);
     margin-right: 23px;
+  }
+}
+
+@media (max-width: $desktopWidth) {
+
+  .registration-content {
+    gap: 22px;
+  }
+}
+
+@media (max-width: $tabletBackground) {
+
+  .add-info {
+    font-size: 16px;
+
+    &__heading {
+      margin-bottom: 32px;
+    }
+
   }
 }
