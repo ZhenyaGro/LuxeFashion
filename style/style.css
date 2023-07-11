@@ -736,6 +736,19 @@ a {
 }
 
 @media (max-width: 1159px) {
+  .chooser {
+    border: 0;
+    border-top: 1px solid #EAEAEA;
+    border-bottom: 1px solid #EAEAEA;
+    margin-top: 0;
+  }
+  .chooser__hr {
+    margin-left: 64px;
+    margin-right: 64px;
+  }
+  .chooser .head__hr {
+    margin-bottom: 12px;
+  }
   .featured__block_none-sm-display {
     display: none;
   }
@@ -1286,6 +1299,19 @@ a {
 }
 
 @media (max-width: 1159px) {
+  .chooser {
+    border: 0;
+    border-top: 1px solid #EAEAEA;
+    border-bottom: 1px solid #EAEAEA;
+    margin-top: 0;
+  }
+  .chooser__hr {
+    margin-left: 64px;
+    margin-right: 64px;
+  }
+  .chooser .head__hr {
+    margin-bottom: 12px;
+  }
   .featured__block_none-sm-display {
     display: none;
   }
