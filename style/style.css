@@ -1101,6 +1101,9 @@ a {
   margin-top: 21px;
   margin-bottom: 17px;
   color: #E2E2E2;
+  border: 0;
+  height: 1px;
+  background-color: #E2E2E2;
 }
 .order-data__button-proceed {
   padding: 15px 43px;
@@ -1664,6 +1667,9 @@ a {
   margin-top: 21px;
   margin-bottom: 17px;
   color: #E2E2E2;
+  border: 0;
+  height: 1px;
+  background-color: #E2E2E2;
 }
 .order-data__button-proceed {
   padding: 15px 43px;
