@@ -514,6 +514,12 @@ a {
   }
 }
 
+@media (max-width: $tabletBackground) {
+  .subscribe__background {
+    background-image: url(../img/subscribe_background-tablets.png);
+  }
+}
+
 @media (max-width: $tabletWidth) {
   .header {
     padding-left: 1rem;
