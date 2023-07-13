@@ -1,0 +1,24 @@
+@media (hover: hover) {
+  .cart {
+    %slow {
+      transition: all .2s;
+    }
+
+    &__button:hover {
+      background-color: $brandColor;
+      color: white;
+    }
+
+    &__button:hover path {
+      fill: white;
+    }
+
+    &__button {
+      @extend %slow;
+
+      & path {
+        @extend %slow;
+      }
+    }
+  }
+}

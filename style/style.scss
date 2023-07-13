@@ -1,11 +1,19 @@
-@import 'index';
 @import 'variables';
 @import 'universal';
-@import 'product';
-@import 'catalog';
-@import 'cart';
-@import 'registration';
-@import 'media-laptop';
-@import 'media-tablet';
-@import 'media-mobile';
-@import 'media-hover';
+
+@import 'index';
+@import './index/index-adaptive';
+@import './index/index-hover';
+
+@import './product/product';
+@import './product/product-adaptive';
+@import './product/product-hover';
+
+@import './catalog/catalog';
+@import './catalog/catalog-adaptive';
+
+@import './cart/cart';
+@import './cart/cart-adaptive';
+
+@import './registration/registration';
+@import './registration/registration-adaptive'

@@ -1,0 +1,24 @@
+@media (max-width: $laptopWidthM) {
+  .chooser {
+    border: 0;
+    border-top: 1px solid #EAEAEA;
+    border-bottom: 1px solid #EAEAEA;
+    margin-top: 0;
+
+    &__hr {
+      margin-left: 64px;
+      margin-right: 64px;
+    }
+
+    & .head__hr {
+      margin-bottom: 12px;
+
+    }
+  }
+
+  .featured {
+    &__block_none-sm-display {
+      display: none;
+    }
+  }
+}

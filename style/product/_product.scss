@@ -40,7 +40,6 @@
   }
 }
 
-
 .slider {
   background-color: #F7F7F7;
   display: flex;
@@ -145,54 +144,8 @@
   margin-bottom: 128px;
 }
 
-.none-pt {
-  padding-top: 0;
-}
-
-@media (max-width: $desktopWidth) {
-
-  .chooser {
-    border: 0;
-    border-top: 1px solid #EAEAEA;
-    border-bottom: 1px solid #EAEAEA;
-    margin-top: 0;
-
-    &__hr {
-      margin-left: 64px;
-      margin-right: 64px;
-    }
-  }
-
-  .chooser .head__hr {
-    margin-bottom: 12px;
-  }
-
-  .featured {
-    &__block_none-sm-display {
-      display: none;
-    }
-  }
-}
-
-@media (hover: hover) {
-  .cart__button:hover {
-    background-color: $brandColor;
-    color: white;
-  }
-
-  .cart__button:hover path {
-    fill: white;
-  }
-
-  %slow {
-    transition: all .2s;
-  }
-
-  .cart__button {
-    @extend %slow;
-
-    & path {
-      @extend %slow;
-    }
+.footer {
+  &__none-pt {
+    padding-top: 0;
   }
 }

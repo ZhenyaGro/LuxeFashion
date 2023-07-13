@@ -1,3 +1,91 @@
+@media (min-width: $laptopWidthLPlus) {
+  .subscribe__background {
+    background-position: bottom;
+  }
+}
+
+@media (max-width: $laptopWidthM) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .header {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .main-page {
+    justify-content: space-around;
+  }
+
+  .main-page__header {
+    margin-right: 0;
+  }
+
+  .man {
+    max-height: 368px;
+  }
+
+  .header__first-line {
+    font-size: 44px;
+  }
+
+  .header__second-line {
+    font-size: 24px;
+  }
+
+  .categories {
+    gap: 20px;
+    margin-bottom: 110px;
+  }
+
+  .category__img {
+    width: 100%;
+  }
+
+  .featured__text {
+    margin-bottom: 72px;
+  }
+
+  .featured__content {
+    grid-template-columns: repeat(2, 49%);
+    margin-bottom: 32px;
+    gap: 16px;
+  }
+
+  .featured__img {
+    width: 100%;
+  }
+
+  .footer {
+    padding-top: 48px;
+  }
+
+  .offers {
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    padding-bottom: 64px;
+  }
+
+  .offer__text {
+    max-width: 360px;
+  }
+
+  .subscribe {
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    padding-top: 64px;
+  }
+
+  .rights {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
 @media (max-width: $tabletBackground) {
 
   // index
@@ -113,64 +201,11 @@
   }
 }
 
-// catalog
-@media (max-width:
+@media (max-width: $mobileWidthM) {
+  .header {
 
-  /*$phoneWidth*/
-  $tabletBackground) {
-
-  .top {
-    flex-direction: column;
-    gap: 32px;
-    padding-top: 24px;
-    padding-bottom: 46px;
-  }
-
-  .filter-sort {
-    gap: 0;
-    justify-content: space-between;
-  }
-
-  .filter {
-    width: auto;
-
-    &__summary {
-      padding-left: 0;
+    &__group-menu {
+      gap: 0;
     }
-
-    &__svg {
-      width: 37.5px;
-      height: 25px;
-    }
-
-    &[open] {
-      width: 360px;
-      position: absolute;
-    }
-
-    &__heading {
-      display: none;
-    }
-  }
-
-  .featured {
-    padding-bottom: 64.5px;
-
-    &__content {
-      margin-bottom: 40.5px;
-    }
-
-    &__block {
-      margin-bottom: 0;
-    }
-
-    &__block_none-tablet-display {
-      display: block;
-    }
-  }
-
-  .catalog {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
   }
 }
