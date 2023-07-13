@@ -1,0 +1,63 @@
+@media (hover: hover) {
+
+  .header {
+
+    &__link {
+      transition: transform .3s;
+    }
+
+    &__link:hover {
+      transform: scale(1.1);
+    }
+
+  }
+
+  .item-type {
+
+    &__link:hover {
+      color: #F16D7F;
+    }
+  }
+
+  .featured {
+
+    &__block:hover .add-cart {
+      display: flex;
+      background: rgba(58, 56, 56, 0.86);
+    }
+
+    &__browse {
+      transition: all .3s;
+    }
+
+    &__browse:hover {
+      background-color: #FF6A6A;
+      color: white;
+    }
+  }
+
+  .subscribe {
+
+    &__button {
+      transition: background-color .2s;
+    }
+
+    &__button:hover {
+      background-color: #E05C6E;
+    }
+  }
+
+  .social {
+    &__link path {
+      transition: fill .1s;
+    }
+
+    &__link:hover path {
+      fill: #F16D7F;
+    }
+
+    &__link:hover path:last-child {
+      fill: white;
+    }
+  }
+}

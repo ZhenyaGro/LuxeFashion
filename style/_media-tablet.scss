@@ -1,0 +1,176 @@
+@media (max-width: $tabletBackground) {
+
+  // index
+  .header {
+    padding-left: 1rem;
+
+    &__first-line {
+      font-size: 38px;
+    }
+
+    &__second-line {
+      font-size: 20px;
+    }
+  }
+
+  .contact,
+  .cart,
+  .man {
+    display: none;
+  }
+
+  .group-menu {
+    gap: 0;
+    align-items: center;
+  }
+
+  .main-page__header {
+    border-left: 16px solid #f16D7f;
+    margin-top: 149px;
+    margin-bottom: 149px;
+    line-height: 30px;
+  }
+
+  .menu {
+    left: -201px;
+    top: 71px;
+  }
+
+  .categories {
+    display: block;
+  }
+
+  .category {
+    &__link {
+      display: block;
+      margin-bottom: 2rem;
+    }
+
+    &__img-long {
+      width: 100%;
+      content: url(../img/pic4phone.png);
+    }
+
+    &__header {
+      z-index: 1;
+    }
+  }
+
+  .text-big {
+    font-size: 24px;
+  }
+
+  .featured {
+    &__header {
+      margin-bottom: 3px;
+    }
+
+    &__content {
+      grid-template-columns: 1fr;
+    }
+
+    &__block {
+      margin-bottom: 1rem;
+    }
+  }
+
+
+  .footer {
+    padding-bottom: 9px;
+  }
+
+  .subscribe__background {
+    background-position: left;
+    background-image: url(../img/subscribe_background-tablets.png);
+  }
+
+  .subscribe {
+    gap: 60px;
+    padding-bottom: 110px;
+
+    &__heading {
+      margin-bottom: 22px;
+      line-height: 21px;
+    }
+
+    &__button {
+      width: 30%;
+    }
+  }
+
+  .input-object {
+    width: 100%;
+  }
+
+  .input-email {
+    width: 68%;
+    padding-right: unset;
+  }
+
+  .rights {
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+}
+
+// catalog
+@media (max-width:
+
+  /*$phoneWidth*/
+  $tabletBackground) {
+
+  .top {
+    flex-direction: column;
+    gap: 32px;
+    padding-top: 24px;
+    padding-bottom: 46px;
+  }
+
+  .filter-sort {
+    gap: 0;
+    justify-content: space-between;
+  }
+
+  .filter {
+    width: auto;
+
+    &__summary {
+      padding-left: 0;
+    }
+
+    &__svg {
+      width: 37.5px;
+      height: 25px;
+    }
+
+    &[open] {
+      width: 360px;
+      position: absolute;
+    }
+
+    &__heading {
+      display: none;
+    }
+  }
+
+  .featured {
+    padding-bottom: 64.5px;
+
+    &__content {
+      margin-bottom: 40.5px;
+    }
+
+    &__block {
+      margin-bottom: 0;
+    }
+
+    &__block_none-tablet-display {
+      display: block;
+    }
+  }
+
+  .catalog {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+}
