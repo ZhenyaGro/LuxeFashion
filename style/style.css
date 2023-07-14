@@ -251,13 +251,13 @@ a {
   line-height: 19px;
 }
 
-.link-container {
-  text-align: center;
-}
-
 .featured__browse {
   border: 1px solid #FF6A6A;
   padding: 14.5px 38.5px 13.5px;
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
 }
 
 .footer {
