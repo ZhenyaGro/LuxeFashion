@@ -486,14 +486,14 @@ a {
   .header__second-line {
     font-size: 20px;
   }
+  .header__group-menu {
+    gap: 0;
+    align-items: center;
+  }
   .contact,
   .cart,
   .man {
     display: none;
-  }
-  .group-menu {
-    gap: 0;
-    align-items: center;
   }
   .main-page__header {
     border-left: 16px solid #f16D7f;
@@ -564,11 +564,6 @@ a {
   .rights {
     flex-direction: column-reverse;
     gap: 40px;
-  }
-}
-@media (max-width: 375px) {
-  .header__group-menu {
-    gap: 0;
   }
 }
 @media (hover: hover) {

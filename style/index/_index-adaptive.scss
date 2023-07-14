@@ -99,6 +99,11 @@
     &__second-line {
       font-size: 20px;
     }
+
+    &__group-menu {
+      gap: 0;
+      align-items: center;
+    }
   }
 
   .contact,
@@ -107,10 +112,7 @@
     display: none;
   }
 
-  .group-menu {
-    gap: 0;
-    align-items: center;
-  }
+
 
   .main-page__header {
     border-left: 16px solid #f16D7f;
@@ -208,14 +210,5 @@
   .rights {
     flex-direction: column-reverse;
     gap: 40px;
-  }
-}
-
-@media (max-width: $mobileWidthM) {
-  .header {
-
-    &__group-menu {
-      gap: 0;
-    }
   }
 }
