@@ -125,23 +125,32 @@
   }
 
   .categories {
-    display: block;
+    grid-template-columns: 1fr;
   }
 
   .category {
     &__link {
       display: block;
       margin-bottom: 2rem;
+      // max-width: 360px;
+      // margin: 0 auto;
     }
 
     &__img-long {
       width: 100%;
       content: url(../img/pic4phone.png);
+      // width: 96vw;
     }
 
     &__header {
       z-index: 1;
     }
+  }
+
+  .img-long {
+    grid-row: unset;
+    grid-column: unset;
+    // margin: unset;
   }
 
   .text-big {
@@ -154,7 +163,8 @@
     }
 
     &__content {
-      grid-template-columns: 1fr;
+      grid-template-columns: 360px;
+      justify-content: center;
     }
 
     &__block {
