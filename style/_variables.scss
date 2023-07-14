@@ -2,8 +2,8 @@ $mobileWidthM: 375px;
 $mobileWidthL: 425px;
 $tabletWidth: 700px;
 $tabletBackground: 768px; // tablet default
-$laptopWidthM: 1159px; // tablet big
-$laptopWidthLPlus: 1600px; // desktop
+$desktopWidthM: 1159px; // tablet big
+$desktopWidthL: 1600px; // desktop
 
 $containerWidth: 1140px;
 $containerPadding: calc(50% - $containerWidth / 2);

@@ -1,10 +1,10 @@
-@media (min-width: $laptopWidthLPlus) {
+@media (min-width: $desktopWidthL) {
   .subscribe__background {
     background-position: bottom;
   }
 }
 
-@media (max-width: $laptopWidthM) {
+@media (max-width: $desktopWidthM) {
   .container {
     padding-left: 1rem;
     padding-right: 1rem;
