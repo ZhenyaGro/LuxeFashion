@@ -117,7 +117,7 @@
     margin-bottom: 49px;
   }
 
-  .property {
+  &__property {
     border: 0;
     color: #6F6E6E;
     font-size: 14px;
@@ -126,7 +126,7 @@
   .cart__button {
     color: #F26376;
     border: 1px solid #F26376;
-    padding: 14px 56px 8px 23px;
+    padding: 14px 56px 14px 23px;
     display: flex;
     justify-content: center;
     align-items: center;

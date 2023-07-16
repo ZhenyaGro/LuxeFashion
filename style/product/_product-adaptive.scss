@@ -1,4 +1,12 @@
 @media (max-width: $desktopWidthM) {
+
+  .slider {
+
+    &__img {
+      content: url(../../img/women-collection_tablet.png);
+    }
+  }
+
   .chooser {
     border: 0;
     border-top: 1px solid #EAEAEA;
@@ -12,13 +20,55 @@
 
     & .head__hr {
       margin-bottom: 12px;
-
     }
   }
 
   .featured {
     &__block_none-sm-display {
       display: none;
+    }
+  }
+}
+
+@media (max-width: 565px) {
+  .slider {
+
+    &__img {
+      content: url(../../img/women-collection_mobile.png);
+    }
+  }
+}
+
+@media (max-width: $mobileWidthL) {
+  .slider {}
+
+  .chooser {
+
+    &__heading {
+      margin-bottom: 32px;
+    }
+
+    &__price {
+      margin-bottom: 32px;
+    }
+
+    &__hr {
+      margin-bottom: 50px;
+    }
+
+    &__properties {
+      margin-bottom: 65px;
+    }
+
+    &__property {
+      font-size: 10px;
+    }
+  }
+
+  .featured {
+
+    &__content {
+      gap: 0;
     }
   }
 }

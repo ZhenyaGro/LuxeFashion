@@ -2,13 +2,15 @@
 @import 'universal';
 
 @import 'index';
+@import './index/index-adaptive';
+@import './index/index-hover';
+
 @import './product/product';
 @import './catalog/catalog';
 @import './cart/cart';
 @import './registration/registration';
 
-@import './index/index-adaptive';
-@import './index/index-hover';
+
 @import './product/product-adaptive';
 @import './product/product-hover';
 @import './catalog/catalog-adaptive';

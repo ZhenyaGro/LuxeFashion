@@ -175,7 +175,7 @@
 
   .subscribe__background {
     background-position: left;
-    background-image: url(../img/subscribe_background-tablets.png);
+    background-image: url(../img/subscribe-background_tablet.png);
   }
 
   .subscribe {
@@ -204,5 +204,16 @@
   .rights {
     flex-direction: column-reverse;
     gap: 40px;
+  }
+}
+
+@media (max-width: $mobileWidthL) {
+
+  .subscribe {
+
+    &__background {
+      background-position: left;
+      background-image: url(../img/subscribe-background_tablet.png);
+    }
   }
 }
