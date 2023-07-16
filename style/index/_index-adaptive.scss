@@ -49,7 +49,8 @@
   }
 
   .featured__content {
-    grid-template-columns: repeat(2, 49%);
+    // grid-template-columns: repeat(2, 49%);
+    grid-template-columns: repeat(2, 360px);
     margin-bottom: 32px;
     gap: 16px;
   }
@@ -88,7 +89,6 @@
 
 @media (max-width: $tabletBackground) {
 
-  // index
   .header {
     padding-left: 1rem;
 
@@ -112,8 +112,6 @@
     display: none;
   }
 
-
-
   .main-page__header {
     border-left: 16px solid #f16D7f;
     margin-top: 149px;
@@ -134,14 +132,11 @@
     &__link {
       display: block;
       margin-bottom: 2rem;
-      // max-width: 360px;
-      // margin: 0 auto;
     }
 
     &__img-long {
       width: 100%;
       content: url(../img/pic4phone.png);
-      // width: 96vw;
     }
 
     &__header {
@@ -152,7 +147,6 @@
   .img-long {
     grid-row: unset;
     grid-column: unset;
-    // margin: unset;
   }
 
   .text-big {

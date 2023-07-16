@@ -189,8 +189,8 @@ a {
 }
 .featured__content {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 360px);
+  justify-content: center;
   gap: 30px;
   margin-bottom: 49px;
 }
@@ -1070,7 +1070,7 @@ a {
     margin-bottom: 72px;
   }
   .featured__content {
-    grid-template-columns: repeat(2, 49%);
+    grid-template-columns: repeat(2, 360px);
     margin-bottom: 32px;
     gap: 16px;
   }
