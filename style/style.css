@@ -1370,6 +1370,44 @@ a {
     margin-bottom: 0;
   }
 }
+@media (max-width: 767px) {
+  .top_none-breadcrumbs {
+    padding-top: 50px;
+    padding-bottom: 69px;
+  }
+  .order__items {
+    gap: 32px;
+    margin-bottom: 30px;
+  }
+  .order__heading {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  .order__properties {
+    gap: 4px;
+  }
+  .order__property {
+    font-size: 14px;
+  }
+  .order__photo {
+    width: 143px;
+    height: 188px;
+  }
+  .order__input {
+    font-size: 10px;
+  }
+  .order__block {
+    padding: 12px 12px 33px 17px;
+  }
+  .order__buttons {
+    gap: 9px;
+  }
+  .order__button {
+    font-size: 12px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+  }
+}
 @media (max-width: 1159px) {
   .registration-content {
     gap: 22px;
