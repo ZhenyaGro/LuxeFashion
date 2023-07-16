@@ -168,14 +168,9 @@
     }
   }
 
-
-  .footer {
-    padding-bottom: 9px;
-  }
-
   .subscribe__background {
     background-position: left;
-    background-image: url(../img/subscribe-background_tablet.png);
+    background-image: url(../../img/subscribe-background_tablet.png);
   }
 
   .subscribe {
@@ -210,10 +205,15 @@
 @media (max-width: $mobileWidthL) {
 
   .subscribe {
-
     &__background {
       background-position: left;
-      background-image: url(../img/subscribe-background_tablet.png);
+      background-image: url(../../img/subscribe-background_mobile.png);
+    }
+  }
+
+  .quote {
+    &__text {
+      font-size: 18px;
     }
   }
 }

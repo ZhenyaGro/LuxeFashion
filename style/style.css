@@ -536,12 +536,9 @@ a {
   .featured__block {
     margin-bottom: 1rem;
   }
-  .footer {
-    padding-bottom: 9px;
-  }
   .subscribe__background {
     background-position: left;
-    background-image: url(../img/subscribe-background_tablet.png);
+    background-image: url(../../img/subscribe-background_tablet.png);
   }
   .subscribe {
     gap: 60px;
@@ -569,7 +566,10 @@ a {
 @media (max-width: 424px) {
   .subscribe__background {
     background-position: left;
-    background-image: url(../img/subscribe-background_tablet.png);
+    background-image: url(../../img/subscribe-background_mobile.png);
+  }
+  .quote__text {
+    font-size: 18px;
   }
 }
 @media (hover: hover) {
