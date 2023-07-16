@@ -1,3 +1,25 @@
+@media(max-width: $desktopWidthM) {
+
+  .filter-sort {
+    gap: 0;
+    justify-content: space-between;
+  }
+
+  .filter {
+
+    &[open] {
+      width: 360px;
+      position: absolute;
+    }
+  }
+
+  .featured {
+    &__block_none-tablet-display {
+      display: none;
+    }
+  }
+}
+
 @media (max-width:
 
   /*$phoneWidth*/
@@ -10,11 +32,6 @@
     padding-bottom: 46px;
   }
 
-  .filter-sort {
-    gap: 0;
-    justify-content: space-between;
-  }
-
   .filter {
     width: auto;
 
@@ -25,11 +42,6 @@
     &__svg {
       width: 37.5px;
       height: 25px;
-    }
-
-    &[open] {
-      width: 360px;
-      position: absolute;
     }
 
     &__heading {
@@ -47,9 +59,17 @@
     &__block {
       margin-bottom: 0;
     }
+  }
+}
 
-    &__block_none-tablet-display {
-      display: block;
+@media (max-width: $mobileWidthL) {
+
+  .filter {
+
+    &[open] {
+      width: unset;
+      position: absolute;
     }
   }
+
 }
