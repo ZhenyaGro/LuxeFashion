@@ -20,10 +20,7 @@
   }
 }
 
-@media (max-width:
-
-  /*$phoneWidth*/
-  $tabletBackground) {
+@media (max-width: $tabletWidth) {
 
   .top {
     flex-direction: column;
