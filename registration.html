@@ -69,11 +69,11 @@
   </section>
   <div class="registration-content container">
     <form action="#" class="reg-form">
-      <label class="reg-form__label">
-        Your Name
+      <div class="reg-form__block">
+        <label class="reg-form__label">Your Name</label>
         <input type="text" class="reg-form__input" placeholder="First Name" required>
         <input type="text" class="reg-form__input" placeholder="Last Name" required>
-      </label>
+      </div>
       <div class="reg-form__gender">
         <input type="radio" class="reg-form__radio" name="gender" id="genderMale" required>
         <label for="genderMale" class="reg-form__label reg-form__label_small">Male</label>
@@ -83,11 +83,11 @@
         <label for="genderOther" class="reg-form__label reg-form__label_small">Other</label>
       </div>
       <div class="reg-form__login-data">
-        <label class="reg-form__label">
-          Login details
+        <div class="reg-form__block">
+          <label class="reg-form__label">Login details</label>
           <input type="email" class="reg-form__input" placeholder="Email" required>
           <input type="password" class="reg-form__input" placeholder="Password" required>
-        </label>
+        </div>
         <p class="reg-form__text">Please use 8 or more characters, with at least 1 number and a mixture of uppercase and
           lowercase letters</p>
         <button type="submit" class="reg-form__button">JOIN NOW <svg width="17" height="10" viewBox="0 0 17 10"

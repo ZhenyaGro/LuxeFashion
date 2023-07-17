@@ -8,12 +8,15 @@
 .reg-form {
   max-width: 360px;
 
-  &__label {
+  &__block {
     display: flex;
     flex-direction: column;
+    gap: 20px;
+  }
+
+  &__label {
     color:
       $additionalColor;
-    gap: 20px;
     font-size: 16px;
     font-family: 'Lato';
     font-style: normal;
