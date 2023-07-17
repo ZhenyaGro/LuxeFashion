@@ -2,9 +2,7 @@
   .registration-content {
     gap: 22px;
   }
-}
 
-@media (max-width: $tabletWidth) {
   .add-info {
     font-size: 16px;
 
@@ -12,5 +10,22 @@
       margin-bottom: 32px;
     }
 
+  }
+}
+
+@media (max-width: $tabletWidth) {
+
+  .registration-content {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    gap: 40px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .subscribe__background {
+    height: 100%;
   }
 }
